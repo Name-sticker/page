@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>name-sticker</title>
+    <style type="text/css">
+        /* 古いブラウザへの互換性を考えた基本的なスタイル */
+        body {
+            background-color: #f0f0f0;
+            font-family: "MS Pゴシック", "ヒラギノ角ゴ Pro W3", sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* 全体を中央寄せにする（古いIE対策） */
+        }
+
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            text-align: left; /* コンテンツ内は左寄せ*/
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .link-list {
+            margin: 30px auto;
+            width: 90%;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .link-item {
+            margin-bottom: 15px;
+            border-bottom: 1px dotted #999999;
+        }
+
+        .link-item a {
+            display: block;
+            padding: 15px;
+            font-size: 20px;
+            color: #0000ee;
+            text-decoration: none;
+        }
+
+        .link-item a:hover {
+            background-color: #eeeeee;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <h1>name-sticker Web Links</h1>
+    </header>
+
+    <ul class="link-list">
+        <li class="link-item">
+            <a href="https://musicinfo-alpha.vercel.app/">MUSIC INFO - 音楽情報検索</a>
+        </li>
+        <li class="link-item">
+            <a href="https://musicinfo-alpha.vercel.app/sp">MUSIC INFO for old bowser</a>
+        </li>
+        <li class="link-item">
+            <a href="https://forold-ytinfo.name-sticker.workers.dev/">古いブラウザ向けYouTube検索サイト</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
